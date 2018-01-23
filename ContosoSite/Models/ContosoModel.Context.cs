@@ -18,6 +18,7 @@ namespace ContosoSite.Models
         public ContosoUniversityDataEntities()
             : base("name=ContosoUniversityDataEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

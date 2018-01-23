@@ -136,7 +136,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="ContosoUniversityDataEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="ContosoUniversityDataEntities" annotation:LazyLoadingEnabled="false">
           <EntitySet Name="Courses" EntityType="Self.Course" />
           <EntitySet Name="Enrollments" EntityType="Self.Enrollment" />
           <EntitySet Name="Students" EntityType="Self.Student" />
